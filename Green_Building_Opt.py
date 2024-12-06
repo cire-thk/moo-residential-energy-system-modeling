@@ -869,15 +869,15 @@ else:                       # No Optimization
                                                                                                                                                                   own_design=own_design,
                                                                                                                                                                   n=n)
 # %% Saving Reference optimization case
-
-opt_ref = pd.DataFrame()
-opt_ref["CO2 emissions"] = optimization_results.F.T[1]
-opt_ref["Annuity Cost"] = optimization_results.F.T[0]
-opt_ref["ng price"] = specs_eco["ng price"]
-opt_ref["h2 price"] = specs_eco["h2 price"]
-opt_ref["electricity price"] = specs_eco["electricity price"]
-opt_ref["hyper volume"] = hyper_volume_indicator
-opt_ref["spacing"] = spacing
+if optimization_mode == True:
+    opt_ref = pd.DataFrame()
+    opt_ref["CO2 emissions"] = optimization_results.F.T[1]
+    opt_ref["Annuity Cost"] = optimization_results.F.T[0]
+    opt_ref["ng price"] = specs_eco["ng price"]
+    opt_ref["h2 price"] = specs_eco["h2 price"]
+    opt_ref["electricity price"] = specs_eco["electricity price"]
+    opt_ref["hyper volume"] = hyper_volume_indicator
+    opt_ref["spacing"] = spacing
 
 
 # %% Results_to_Excel
