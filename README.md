@@ -91,12 +91,12 @@ The output directory divides itself into two subsequent directories. One is for 
 The most important results are the Pareto front and the parallel coordinate plot which can be seen below.
 
 __Pareto Front__
-<p align= "center"><img src="Output/Optimizations/Illustrations/2024-11-14/ParetoFrontsA_NSGA2_Gen60_Pop50_2024-11-14.png" width="600"><br/></p> 
+<p align= "center"><img src="Output/Optimizations/Illustrations/ParetoFrontsA_NSGA2_Gen60_Pop50_2024-11-14.png" width="600"><br/></p> 
 
 The Pareto Front is given in the space of feasible solutions and marks the non-dominated solutions. The coloring and shaping of these solutions indicate corresponding decision variables. For example the colours show the level of renovation, the shape indicates the energy carrier and the border coloration indicates whether the energy management system is applied or not.
 
 __Parallel Coordinate Plot__
-<p align= "center"><img src="Output/Optimizations/Illustrations/2024-11-14/Parallel Coordinate Plot.png" width="600"><br/></p> 
+<p align= "center"><img src="Output/Optimizations/Illustrations/Parallel Coordinate Plot.png" width="600"><br/></p> 
 
 The parallel coordinate plot gives an overview of every solution with their objective values and decision variables. One line illustrates a particular solution.
 
